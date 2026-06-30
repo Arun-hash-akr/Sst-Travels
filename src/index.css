@@ -95,3 +95,23 @@ p {
   font-size: 1.2rem;
   opacity: 0.8;
 }
+
+#preloader {
+  background: url(./assets/Summer/vanloadg.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  top: 0%;
+  position: fixed;
+  z-index: 100;
+}
+
+@media screen and (max-width:898px) {
+  #preloader {
+    background: url(./assets/Summer/vanloadg.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    z-index: 100;
+  }
+}

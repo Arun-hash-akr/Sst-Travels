@@ -1,3 +1,4 @@
+// TOP BUTTON
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -16,3 +17,13 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+
+    setTimeout(() => {
+        preloader.style.display = "none";
+    }, 2000);
+})

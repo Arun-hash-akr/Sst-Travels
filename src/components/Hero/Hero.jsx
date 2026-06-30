@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Hero/Hero.css'
+import './Hero.css'
 import Explore from '../Explore/Explore'
 import Rental from '../Rental/Rental'
 import Contact from '../Contact/Contact'

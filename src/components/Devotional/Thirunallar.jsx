@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
-import "./Thirunallar.css";
+import "./Thirunallars.css";
 
 import ThirunallarImg from "./images/thirunallar.png";
 import Thirukadaiyur from "./images/thirunallarbg.png";

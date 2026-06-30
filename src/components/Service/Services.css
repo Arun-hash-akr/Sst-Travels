@@ -1,0 +1,12 @@
+.Service{
+    position: relative;
+    width: 80%;
+    margin: 3% 5% 5% 10%;
+    /* border: 2px solid #000; */
+
+    h3{
+        font-family: 'Outfit',sans-serif;
+        text-align: center;
+        color: #8c04f5;
+    }
+}
