@@ -18,12 +18,14 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-var loader = document.getElementById("preloader");
+const loader = document.getElementById("preloader");
 
-window.addEventListener("load", function () {
-    loader.style.display = "none";
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loader.style.opacity = "0";
 
     setTimeout(() => {
-        preloader.style.display = "none";
-    }, 2000);
-})
+      loader.style.display = "none";
+    }, 500);
+  }, 2000);
+});
