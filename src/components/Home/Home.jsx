@@ -20,9 +20,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// <li><a href="/#Hero">Explore</a></li>
-//                         <li><a href="/#Explore">Packages</a></li>
-//                         <li><a href="/#Gallaries">Gallaries</a></li>
-//                         <li><a href="/#Service">Service</a></li>
-//                         <li><a href="/#Contact">Contact</a></li>

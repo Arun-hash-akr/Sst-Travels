@@ -50,7 +50,6 @@
         position: relative;
         width: 100%;
         padding: 15px 20px;
-        backdrop-filter: blur(10px);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -79,13 +78,15 @@
             span {
                 width: 22px;
                 height: 3px;
-                background: #000;
+                background: var(--accent);
                 transition: 0.3s;
             }
-            span:hover{
+
+            span:hover {
                 transition: .2s all ease-in-out;
-                .hamburger{
-                background-color: var(--accent);
+
+                .hamburger {
+                    background-color: var(--accent);
 
                 }
             }
@@ -93,10 +94,10 @@
 
         .menus {
             position: fixed;
-            top: 70px;
+            top: 50px;
             left: 0;
             width: 100%;
-            background: #fff;
+            backdrop-filter: blur(2px);
             transform: translateY(-120%);
             transition: transform .4s ease;
             z-index: 9999;
@@ -114,8 +115,8 @@
 
                     a {
                         text-decoration: none;
-                        font-size: 18px;
-                        color: #000;
+                        font-size: 14px;
+                        color: #fefefe;
                         font-family: 'Poppins', sans-serif;
                     }
 

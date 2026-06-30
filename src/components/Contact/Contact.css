@@ -18,6 +18,13 @@
         }
     }
 
+    .lin{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .copy {
         p {
             border-top: 1px solid #fefefe;
@@ -33,7 +40,7 @@
     .contact {
         position: relative;
         display: grid;
-        grid-template-columns: 30% 40% 30%;
+        grid-template-columns: 40% 60%;
 
         .company {
             .head h3 {
@@ -55,7 +62,6 @@
 
         .quick {
             position: relative;
-            left: 35%;
         }
 
         .cont {
@@ -69,6 +75,9 @@
         .cont {
             position: relative;
             width: 50%;
+            h4{
+                color: #fefefe;
+            }
 
             li {
                 list-style: none;
@@ -142,6 +151,8 @@
             color: #fefefe;
         }
     }
+
+    
 
     .contact {
         position: relative;

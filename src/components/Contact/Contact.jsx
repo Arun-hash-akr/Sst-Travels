@@ -1,6 +1,27 @@
 import React from 'react'
 import './Contact.css'
 
+const handleBook = () => {
+  window.open(
+    "https://api.whatsapp.com/send?phone=919786515007&text=Hi,%20I%20contact%20through%20your%20website.",
+    "_blank"
+  );
+};
+
+const handleInsta = () => {
+  window.open(
+    "window.location.href = &quot;https://www.instagram.com/sst.travels?igsh=MWZ4bWZuN2M3cmd6Zg==&quot;",
+    "_blank"
+  );
+};
+
+const handleLoc = () => {
+  window.open(
+    "window.location.href = https://share.google/QzTvT8NMaIMuHg2VP",
+    "_blank"
+  );
+};
+
 const Contact = () => {
   return (
     <>
@@ -25,9 +46,9 @@ const Contact = () => {
             <div className="cont">
               <h4>Contact</h4>
               <ul>
-                <li><a href="">WhatsApp</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Location</a></li>
+                <li><a href="" onClick={handleBook}>WhatsApp</a></li>
+                <li><a href="" onClick={handleInsta}>Instagram</a></li>
+                <li><a href="" onClick={handleLoc}>Location</a></li>
               </ul>
 
               <div className="tamil">
