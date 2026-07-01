@@ -1,0 +1,103 @@
+@media screen and (min-width: 899px) {
+
+    .en-Hero {
+        margin: 3% 5% 5% 5%;
+
+        .en-about {
+            position: relative;
+            margin-left: 9%;
+            background: linear-gradient(#23232372, #23232372, #23232372, #23232372), url("./bg11.png");
+            width: 80%;
+            height: 500px;
+            border-radius: 20px;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            padding: 120px 70px 70px 70px;
+            box-shadow: 2px 2px 5px 2px #bdbdbdbe;
+
+            h1 {
+                font-family: 'Outfit', sans-serif;
+                font-weight: 700;
+            }
+
+            .en-para {
+                width: 65%;
+                margin-top: 30px;
+                font-size: 17px;
+                text-align: justify;
+            }
+
+            .en-exp {
+                margin-top: 30px;
+
+                button {
+                    background: var(--accent);
+                    padding: 15px 45px 15px 45px;
+                    font-size: 17px;
+                    color: #ffffff;
+                    border: none;
+                    border-radius: 10px;
+                }
+
+                button:hover {
+                    transition: all .3s ease-in-out;
+                    background-color: #7e03dd;
+                }
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 898px) {
+    .en-Hero {
+        margin: 3% 5% 5% 5%;
+
+        .en-about {
+            position: relative;
+            margin-left: 5%;
+            background: linear-gradient(#23232372, #23232372, #23232372, #23232372), url("./bg11.png");
+            width: 90%;
+            height: 500px;
+            border-radius: 20px;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            padding: 120px 50px 50px 50px;
+            box-shadow: 2px 2px 5px 2px #bdbdbdbe;
+
+            h1 {
+                font-family: 'Outfit', sans-serif;
+                font-weight: 700;
+                font-size: 32px;
+            }
+
+            p {
+                width: 100%;
+                margin-top: 30px;
+                font-size: 14px;
+                text-align: justify;
+            }
+
+            .en-exp {
+                margin-top: 30px;
+
+                button {
+                    background: var(--accent);
+                    padding: 10px 15px 10px 15px;
+                    font-size: 14px;
+                    color: #ffffff;
+                    border: none;
+                    border-radius: 10px;
+                }
+
+                button:hover {
+                    transition: all .3s ease-in-out;
+                    background-color: #7e03dd;
+                }
+            }
+
+        }
+
+    }
+}
