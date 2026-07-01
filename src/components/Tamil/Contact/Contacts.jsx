@@ -57,6 +57,23 @@ const Contacts = () => {
                 <li><a href="#">மேலும் ஆராயுங்கள்</a></li>
                 <li><a href="#">எங்கள் போகுவரத்துகள்</a></li>
               </ul>
+
+              <div className="tamil">
+                <h6>For View in English</h6>
+
+                <button
+                  onClick={() => {
+                    navigate("/en");
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth", // or "auto" for instant scrolling
+                    });
+                  }}
+                >
+                  Click Here
+                </button>
+              </div>
+
             </div>
 
             <div className="cont">
@@ -66,13 +83,11 @@ const Contacts = () => {
                 <li><a href="#" onClick={handleBook}>WhatsApp</a></li>
                 <li><a href="#" onClick={handleInsta}>Instagram</a></li>
                 <li><a href="#" onClick={handleLoc}>Location</a></li>
+                <li><a href="tel:+919994346459">9994346459</a></li>
+                <li><a href="tel:+919786515007">9786515007</a></li>
               </ul>
 
-              <div className="tamil">
-                <h6>For View in English</h6>
 
-                 <button onClick={() => navigate("/en")}>Click Here</button>
-              </div>
 
             </div>
 

@@ -69,7 +69,7 @@ const Thirunallar = () => {
 
             {/* PLACES */}
             <div className="heads">
-                <h3>Places to Visit in Palani</h3>
+                <h3>பழனியில் பார்க்க வேண்டிய இடங்கள்</h3>
                 <ul>
                     {images.map((item, i) => (
                         <li key={i}>{item.name}</li>
@@ -82,28 +82,28 @@ const Thirunallar = () => {
                 <table>
                     <thead>
                         <tr>
-                            <th>From</th>
-                            <th>To</th>
-                            <th>Price</th>
+                            <th>முதல்</th>
+                            <th>இருந்து</th>
+                            <th>விலை</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Trichy</td>
-                            <td>Palani</td>
-                            <td>3700</td>
+                            <td>திருச்சி</td>
+                            <td>பழனி</td>
+                            <td>4500</td>
                         </tr>
                     </tbody>
                 </table>
 
-                <p><strong>Note:</strong></p>
+                <p><strong>குறிப்பு:</strong></p>
                 <ul>
-                    <li>Price is per person.</li>
+                    <li>விலை ஒரு நபருக்கு.</li>
                 </ul>
             </div>
 
             {/* BUTTON */}
-            <button onClick={handleBookNow}>Book Now</button>
+            <button onClick={handleBookNow}>முன்பதிவு செய்ய</button>
 
             {/* MAP */}
             <div className="iframe">

@@ -19,7 +19,12 @@ const Explore = () => {
             <img src={dev} alt="Devotional" />
             <h4>Devotional</h4>
 
-            <Link to="/en/devotional">
+            <Link to="/en/devotional" onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth", // or "auto"
+              });
+            }}>
               More
             </Link>
           </div>
@@ -28,7 +33,12 @@ const Explore = () => {
             <img src={rent} alt="Rentals" />
             <h4>Rentals</h4>
 
-            <Link to="/en/rentals">
+            <Link to="/en/rentals" onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth", // or "auto"
+              });
+            }}>
               More
             </Link>
           </div>

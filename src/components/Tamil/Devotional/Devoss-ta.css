@@ -5,7 +5,8 @@
         h3 {
             text-align: center;
             color: #8c04f5;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
+            font-weight: 700;
         }
 
         .cards {
@@ -23,14 +24,15 @@
             .crd {
                 position: relative;
                 width: 20.3%;
-                height: 450px;
+                height: 500px;
                 border-radius: 20px;
                 background: #ffffff;
                 box-shadow: 0px 0px 7px 2px #e5e5e5;
 
                 h4 {
-                    font-family: 'Poppins', sans-serif;
+                    font-family: "Kavivanar", sans-serif;
                     margin: 4%;
+                    font-weight: 700;
                     color: #8c04f5;
                 }
 
@@ -41,8 +43,9 @@
                 p {
                     margin: 4%;
                     text-align: justify;
-                    font-family: 'Outfit', sans-serif;
-                    font-size: 16px;
+                    font-family: 'Karla Tamil Inclined', sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
                     color: #141414;
 
                 }
@@ -50,6 +53,7 @@
                 a {
                     font-size: 16px;
                     margin: 5%;
+                    font-family: 'Noto Sans Tamil', sans-serif;
                     font-weight: 500;
                     text-decoration: none;
                     color: #8c04f5;
@@ -66,7 +70,8 @@
         h3 {
             text-align: center;
             color: #8c04f5;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
+            font-weight: 700;
         }
 
         .cards {
@@ -80,25 +85,32 @@
                 display: grid;
                 gap: 50px;
             }
-            .crd2{
+
+            .crd2 {
                 margin-top: 200px;
             }
 
+            #pln {
+                margin-top: 30px;
+            }
+
             #rmr{
-                margin-top: -120px;
+                margin-top: -150px;
             }
 
             .crd {
                 position: relative;
                 width: 80%;
-                height: 450px;
+                height: fit-content;
                 left: 10%;
+                padding-bottom: 20px;
                 border-radius: 20px;
                 background: #ffffff;
                 box-shadow: 0px 0px 7px 2px #e5e5e5;
 
                 h4 {
-                    font-family: 'Poppins', sans-serif;
+                    font-family: "Kavivanar", sans-serif;
+                    font-weight: 600;
                     margin: 4%;
                     color: #8c04f5;
                 }
@@ -110,7 +122,8 @@
                 p {
                     margin: 4%;
                     text-align: justify;
-                    font-family: 'Outfit', sans-serif;
+                    font-weight: 600;
+                    font-family: 'Karla Tamil Inclined', sans-serif;
                     font-size: 16px;
                     color: #141414;
 
@@ -121,6 +134,7 @@
                     margin: 5%;
                     font-weight: 500;
                     text-decoration: none;
+                    font-family: "Kavivanar",sans-serif;
                     color: #8c04f5;
                 }
             }

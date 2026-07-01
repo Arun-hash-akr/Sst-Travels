@@ -42,15 +42,15 @@
         }
 
 
-        .en-heads {
-            margin-top: -90px;
+        .en-head {
+            margin-top: 50px;
 
-            h3 {
+            h2 {
                 color: #8c04f5;
+                font-family: 'Poppins', sans-serif;
             }
 
-            font-family: 'Poppins',
-            sans-serif;
+
         }
 
         iframe {
@@ -81,6 +81,7 @@
         .en-heads {
             position: relative;
             top: 10%;
+            font-family: "Poppins",sans-serif;
             padding: 150px 150px 0px;
 
             ul {

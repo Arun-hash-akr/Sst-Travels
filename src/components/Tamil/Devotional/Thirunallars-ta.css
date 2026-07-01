@@ -13,7 +13,7 @@
 
         h2 {
             text-align: center;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
             padding-bottom: 100px;
             font-weight: 600;
             color: #8c04f5;
@@ -47,10 +47,10 @@
 
             h3 {
                 color: #8c04f5;
+                font-family: "Karla Tamil Inclined";
+                font-weight: 700;
             }
 
-            font-family: 'Poppins',
-            sans-serif;
         }
 
         iframe {
@@ -64,10 +64,11 @@
             position: relative;
             left: 45%;
             border: none;
-            width: 120px;
-            height: 40px;
+            width: 180px;
+            height: 60px;
             font-size: 15px;
-            font-weight: 500;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
             background: #8c04f5;
             color: #fefefe;
             border-radius: 12px;
@@ -88,6 +89,7 @@
 
                 li {
                     padding: 10px;
+                    font-family: "Noto Sans Tamil";
                 }
             }
         }
@@ -119,7 +121,7 @@
             position: absolute;
             font-size: 24px;
             color: #8c04f5;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
             width: 100%;
             font-weight: 600;
             height: 50px;
@@ -141,6 +143,7 @@
             margin-left: 250px;
             margin-top: 50px;
             padding: 30px;
+            font-family: "Noto Sans Tamil", sans-serif;
 
             table {
                 font-size: 20px;
@@ -180,7 +183,7 @@
 
         h2 {
             text-align: center;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
             padding-bottom: 100px;
             font-weight: 600;
             color: #8c04f5;
@@ -215,14 +218,15 @@
 
             h3 {
                 font-size: 20px;
-                font-family: 'Outfit', sans-serif;
+                font-weight: 700;
+                font-family: 'Karla Tamil Inclined', sans-serif;
                 color: #8c04f5;
             }
 
             ul {
-                font-family: 'Poppins', sans-serif;
+                font-family: "Kavivanar", sans-serif;
 
-                li{
+                li {
                     font-size: 16px;
                 }
 
@@ -297,7 +301,7 @@
             position: absolute;
             font-size: 12px;
             color: #8c04f5;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Kavivanar", sans-serif;
             width: 100%;
             font-weight: 600;
             height: 30px;

@@ -80,19 +80,21 @@
                 display: grid;
                 gap: 50px;
             }
-            .en-crd2{
+
+            .en-crd2 {
                 margin-top: 200px;
             }
 
-            #rmr{
+            #rmr {
                 margin-top: -120px;
             }
 
             .en-crd {
                 position: relative;
                 width: 80%;
-                height: 450px;
+                height: fit-content;
                 left: 10%;
+                padding-bottom: 20px;
                 border-radius: 20px;
                 background: #ffffff;
                 box-shadow: 0px 0px 7px 2px #e5e5e5;
@@ -104,7 +106,7 @@
                 }
 
                 img {
-                    width: 287.en-6px;
+                    width: 287.6px;
                 }
 
                 p {

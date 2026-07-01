@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import "./assets/bootstrap.min.css";
 import "./index.css";
-import "./index.js";
+import "././index.js"
 
 import EnglishApp from "./components/English/App/App";
 import TamilApp from "./components/Tamil/App/Apps.jsx";
