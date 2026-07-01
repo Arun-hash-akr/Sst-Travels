@@ -117,7 +117,7 @@
             }
 
             button:hover {
-                transition: all .en-3s ease-in-out;
+                transition: all .3s ease-in-out;
                 background-color: #7e03dd;
                 color: #fefefe;
             }
@@ -241,7 +241,7 @@
             }
 
             button:hover {
-                transition: all .en-3s ease-in-out;
+                transition: all .3s ease-in-out;
                 background-color: #7e03dd;
                 color: #fefefe;
             }
